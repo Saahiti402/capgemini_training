@@ -1,0 +1,47 @@
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Alembic migration cache
+alembic/__pycache__/
+alembic/versions/*.pyc
+
+# MySQL credentials (if any config files)
+*.env
+*.ini~
+*.cfg~
+*.local
+
+# Logs
+*.log
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# Flask specific
+instance/
+*.db
+
+# MyPy / PyTest / Coverage / Others
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
